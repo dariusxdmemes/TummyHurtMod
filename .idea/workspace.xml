@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb89c511-6cd4-4139-aba8-223190e0cfc5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/darius/event/HungerEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/darius/event/PlayerEventHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/darius/tummyhurtmod/TummyHurtMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/darius/tummyhurtmod/TummyHurtMod.java" afterDir="false" />
-    </list>
+    <list default="true" id="cb89c511-6cd4-4139-aba8-223190e0cfc5" name="Changes" comment="Removed unnecessary things in here, since I only want to modify the eating mechanic, not much progress" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,6 +68,9 @@
     &quot;accountId&quot;: &quot;5f63761f-a2e8-4272-be85-ad27a8e5cf6a&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -90,6 +85,7 @@
     &quot;Gradle.TummyHurt [runClient].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;/home/darius/IdeaProjects/TummyHurt&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
@@ -132,6 +128,46 @@
       <option name="presentableId" value="Default" />
       <updated>1752747469872</updated>
     </task>
+    <task id="LOCAL-00001" summary="First try at how the methods work and how the game behaves.">
+      <option name="closed" value="true" />
+      <created>1752835749545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752835749545</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Making so the event (being hungry) affects every player">
+      <option name="closed" value="true" />
+      <created>1752835845110</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752835845110</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Configuration of the options of the mod and also applying the parchmentmc for the current version.">
+      <option name="closed" value="true" />
+      <created>1752835905684</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752835905684</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Removed unnecessary things in here, since I only want to modify the eating mechanic, not much progress">
+      <option name="closed" value="true" />
+      <created>1752835980871</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752835980871</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First try at how the methods work and how the game behaves." />
+    <MESSAGE value="Making so the event (being hungry) affects every player" />
+    <MESSAGE value="Configuration of the options of the mod and also applying the parchmentmc for the current version." />
+    <MESSAGE value="Removed unnecessary things in here, since I only want to modify the eating mechanic, not much progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed unnecessary things in here, since I only want to modify the eating mechanic, not much progress" />
   </component>
 </project>
