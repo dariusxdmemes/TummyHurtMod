@@ -1,4 +1,4 @@
-# Tummy hurt mod(https://github.com/dariusxdmemes/TummyHurtMod)
+# Tummy hurt mod
 ## Description
 Welcome to my first Minecraft modding project, this is a simple mod that modifies the eating mechaninc in Minecraft,
 the idea of this mod comes just out of curiosity of trying to learn how to mod Minecraft, so yeah, in this mod
