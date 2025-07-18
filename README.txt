@@ -1,46 +1,19 @@
+# Tummy hurt mod [Link Text](https://github.com/dariusxdmemes/TummyHurtMod)
+## Description
+Welcome to my first Minecraft modding project, this is a simple mod that modifies the eating mechaninc in Minecraft,
+the idea of this mod comes just out of curiosity of trying to learn how to mod Minecraft, so yeah, in this mod
+basically I try to replicate the "real" hunger or eating behavior, the player can still eat even though his hunger bar
+is maxed, this will show an alert such as "You're full", if you still eat you'll start to feel sick and throw up
+(not actually throwing up lol).
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+## How does this work?
+At the moment I only want to modify basic game mechanics (food items), since these items are the only ones that replenish the food bar, so
+depending of the saturation level of any food item there's 3 states of the player: hungry, full, sick:
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
++ **Hungry:** The player can eat as usually, there's not changes in there.
++ **Full:** The player has replenished his food bar and ate again, he gets a "_Wellness_ buff".
++ **Sick*:* The player has ignored being full and he felt sick and threw up (gets a low hunger bar, with nausea, slowness and weakness).
 
-Setup Process:
-==============================
-
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
-
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
-
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/latest/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+## Why this?
+I don't know since I'm learning Java I always wanted to create a mod for Minecraft so I can play it with my friends,
+aside from that I really enjoy learning how the game works and trying new things as a developer.
