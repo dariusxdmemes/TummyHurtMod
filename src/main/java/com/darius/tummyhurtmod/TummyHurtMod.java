@@ -1,15 +1,20 @@
 package com.darius.tummyhurtmod;
 
+import com.darius.event.HungerEventHandler;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent;
 import net.minecraftforge.eventbus.api.listener.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.event.entity.living.LivingEntityUseItemEvent.Finish;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -21,6 +26,9 @@ public final class TummyHurtMod {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public TummyHurtMod(FMLJavaModLoadingContext context) {
+
+
+
         var modBusGroup = context.getModBusGroup();
         // Register the commonSetup method for modloading
         FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::commonSetup);
@@ -29,6 +37,7 @@ public final class TummyHurtMod {
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
